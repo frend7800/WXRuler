@@ -15,6 +15,7 @@
 		D09781251F4FF002001ECDDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D09781231F4FF002001ECDDE /* LaunchScreen.storyboard */; };
 		D09781301F4FF002001ECDDE /* WXRulerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D097812F1F4FF002001ECDDE /* WXRulerTests.m */; };
 		D097813B1F4FF002001ECDDE /* WXRulerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D097813A1F4FF002001ECDDE /* WXRulerUITests.m */; };
+		D097814B1F4FF040001ECDDE /* WXScrollRulerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D097814A1F4FF040001ECDDE /* WXScrollRulerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D09781361F4FF002001ECDDE /* WXRulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WXRulerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D097813A1F4FF002001ECDDE /* WXRulerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXRulerUITests.m; sourceTree = "<group>"; };
 		D097813C1F4FF002001ECDDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D09781491F4FF040001ECDDE /* WXScrollRulerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXScrollRulerView.h; sourceTree = "<group>"; };
+		D097814A1F4FF040001ECDDE /* WXScrollRulerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXScrollRulerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		D09781141F4FF002001ECDDE /* WXRuler */ = {
 			isa = PBXGroup;
 			children = (
+				D09781481F4FF040001ECDDE /* Ruler */,
 				D09781181F4FF002001ECDDE /* AppDelegate.h */,
 				D09781191F4FF002001ECDDE /* AppDelegate.m */,
 				D097811B1F4FF002001ECDDE /* ViewController.h */,
@@ -138,6 +142,15 @@
 				D097813C1F4FF002001ECDDE /* Info.plist */,
 			);
 			path = WXRulerUITests;
+			sourceTree = "<group>";
+		};
+		D09781481F4FF040001ECDDE /* Ruler */ = {
+			isa = PBXGroup;
+			children = (
+				D09781491F4FF040001ECDDE /* WXScrollRulerView.h */,
+				D097814A1F4FF040001ECDDE /* WXScrollRulerView.m */,
+			);
+			path = Ruler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D097811D1F4FF002001ECDDE /* ViewController.m in Sources */,
+				D097814B1F4FF040001ECDDE /* WXScrollRulerView.m in Sources */,
 				D097811A1F4FF002001ECDDE /* AppDelegate.m in Sources */,
 				D09781171F4FF002001ECDDE /* main.m in Sources */,
 			);
