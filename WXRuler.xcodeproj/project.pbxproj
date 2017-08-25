@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D09781171F4FF002001ECDDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D09781161F4FF002001ECDDE /* main.m */; };
+		D097811A1F4FF002001ECDDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D09781191F4FF002001ECDDE /* AppDelegate.m */; };
+		D097811D1F4FF002001ECDDE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D097811C1F4FF002001ECDDE /* ViewController.m */; };
+		D09781201F4FF002001ECDDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D097811E1F4FF002001ECDDE /* Main.storyboard */; };
+		D09781221F4FF002001ECDDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D09781211F4FF002001ECDDE /* Assets.xcassets */; };
+		D09781251F4FF002001ECDDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D09781231F4FF002001ECDDE /* LaunchScreen.storyboard */; };
+		D09781301F4FF002001ECDDE /* WXRulerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D097812F1F4FF002001ECDDE /* WXRulerTests.m */; };
+		D097813B1F4FF002001ECDDE /* WXRulerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D097813A1F4FF002001ECDDE /* WXRulerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D097812C1F4FF002001ECDDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D097810A1F4FF002001ECDDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D09781111F4FF002001ECDDE;
+			remoteInfo = WXRuler;
+		};
+		D09781371F4FF002001ECDDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D097810A1F4FF002001ECDDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D09781111F4FF002001ECDDE;
+			remoteInfo = WXRuler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D09781121F4FF002001ECDDE /* WXRuler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXRuler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09781161F4FF002001ECDDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D09781181F4FF002001ECDDE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D09781191F4FF002001ECDDE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D097811B1F4FF002001ECDDE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D097811C1F4FF002001ECDDE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D097811F1F4FF002001ECDDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D09781211F4FF002001ECDDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D09781241F4FF002001ECDDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D09781261F4FF002001ECDDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D097812B1F4FF002001ECDDE /* WXRulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WXRulerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D097812F1F4FF002001ECDDE /* WXRulerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXRulerTests.m; sourceTree = "<group>"; };
+		D09781311F4FF002001ECDDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D09781361F4FF002001ECDDE /* WXRulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WXRulerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D097813A1F4FF002001ECDDE /* WXRulerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXRulerUITests.m; sourceTree = "<group>"; };
+		D097813C1F4FF002001ECDDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D097810F1F4FF002001ECDDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09781281F4FF002001ECDDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09781331F4FF002001ECDDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D09781091F4FF002001ECDDE = {
+			isa = PBXGroup;
+			children = (
+				D09781141F4FF002001ECDDE /* WXRuler */,
+				D097812E1F4FF002001ECDDE /* WXRulerTests */,
+				D09781391F4FF002001ECDDE /* WXRulerUITests */,
+				D09781131F4FF002001ECDDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D09781131F4FF002001ECDDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D09781121F4FF002001ECDDE /* WXRuler.app */,
+				D097812B1F4FF002001ECDDE /* WXRulerTests.xctest */,
+				D09781361F4FF002001ECDDE /* WXRulerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D09781141F4FF002001ECDDE /* WXRuler */ = {
+			isa = PBXGroup;
+			children = (
+				D09781181F4FF002001ECDDE /* AppDelegate.h */,
+				D09781191F4FF002001ECDDE /* AppDelegate.m */,
+				D097811B1F4FF002001ECDDE /* ViewController.h */,
+				D097811C1F4FF002001ECDDE /* ViewController.m */,
+				D097811E1F4FF002001ECDDE /* Main.storyboard */,
+				D09781211F4FF002001ECDDE /* Assets.xcassets */,
+				D09781231F4FF002001ECDDE /* LaunchScreen.storyboard */,
+				D09781261F4FF002001ECDDE /* Info.plist */,
+				D09781151F4FF002001ECDDE /* Supporting Files */,
+			);
+			path = WXRuler;
+			sourceTree = "<group>";
+		};
+		D09781151F4FF002001ECDDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D09781161F4FF002001ECDDE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D097812E1F4FF002001ECDDE /* WXRulerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D097812F1F4FF002001ECDDE /* WXRulerTests.m */,
+				D09781311F4FF002001ECDDE /* Info.plist */,
+			);
+			path = WXRulerTests;
+			sourceTree = "<group>";
+		};
+		D09781391F4FF002001ECDDE /* WXRulerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D097813A1F4FF002001ECDDE /* WXRulerUITests.m */,
+				D097813C1F4FF002001ECDDE /* Info.plist */,
+			);
+			path = WXRulerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D09781111F4FF002001ECDDE /* WXRuler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D097813F1F4FF002001ECDDE /* Build configuration list for PBXNativeTarget "WXRuler" */;
+			buildPhases = (
+				D097810E1F4FF002001ECDDE /* Sources */,
+				D097810F1F4FF002001ECDDE /* Frameworks */,
+				D09781101F4FF002001ECDDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WXRuler;
+			productName = WXRuler;
+			productReference = D09781121F4FF002001ECDDE /* WXRuler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D097812A1F4FF002001ECDDE /* WXRulerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09781421F4FF002001ECDDE /* Build configuration list for PBXNativeTarget "WXRulerTests" */;
+			buildPhases = (
+				D09781271F4FF002001ECDDE /* Sources */,
+				D09781281F4FF002001ECDDE /* Frameworks */,
+				D09781291F4FF002001ECDDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D097812D1F4FF002001ECDDE /* PBXTargetDependency */,
+			);
+			name = WXRulerTests;
+			productName = WXRulerTests;
+			productReference = D097812B1F4FF002001ECDDE /* WXRulerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D09781351F4FF002001ECDDE /* WXRulerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09781451F4FF002001ECDDE /* Build configuration list for PBXNativeTarget "WXRulerUITests" */;
+			buildPhases = (
+				D09781321F4FF002001ECDDE /* Sources */,
+				D09781331F4FF002001ECDDE /* Frameworks */,
+				D09781341F4FF002001ECDDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D09781381F4FF002001ECDDE /* PBXTargetDependency */,
+			);
+			name = WXRulerUITests;
+			productName = WXRulerUITests;
+			productReference = D09781361F4FF002001ECDDE /* WXRulerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D097810A1F4FF002001ECDDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = wxj;
+				TargetAttributes = {
+					D09781111F4FF002001ECDDE = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					D097812A1F4FF002001ECDDE = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D09781111F4FF002001ECDDE;
+					};
+					D09781351F4FF002001ECDDE = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D09781111F4FF002001ECDDE;
+					};
+				};
+			};
+			buildConfigurationList = D097810D1F4FF002001ECDDE /* Build configuration list for PBXProject "WXRuler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D09781091F4FF002001ECDDE;
+			productRefGroup = D09781131F4FF002001ECDDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D09781111F4FF002001ECDDE /* WXRuler */,
+				D097812A1F4FF002001ECDDE /* WXRulerTests */,
+				D09781351F4FF002001ECDDE /* WXRulerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D09781101F4FF002001ECDDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09781251F4FF002001ECDDE /* LaunchScreen.storyboard in Resources */,
+				D09781221F4FF002001ECDDE /* Assets.xcassets in Resources */,
+				D09781201F4FF002001ECDDE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09781291F4FF002001ECDDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09781341F4FF002001ECDDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D097810E1F4FF002001ECDDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D097811D1F4FF002001ECDDE /* ViewController.m in Sources */,
+				D097811A1F4FF002001ECDDE /* AppDelegate.m in Sources */,
+				D09781171F4FF002001ECDDE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09781271F4FF002001ECDDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09781301F4FF002001ECDDE /* WXRulerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09781321F4FF002001ECDDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D097813B1F4FF002001ECDDE /* WXRulerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D097812D1F4FF002001ECDDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D09781111F4FF002001ECDDE /* WXRuler */;
+			targetProxy = D097812C1F4FF002001ECDDE /* PBXContainerItemProxy */;
+		};
+		D09781381F4FF002001ECDDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D09781111F4FF002001ECDDE /* WXRuler */;
+			targetProxy = D09781371F4FF002001ECDDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D097811E1F4FF002001ECDDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D097811F1F4FF002001ECDDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D09781231F4FF002001ECDDE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D09781241F4FF002001ECDDE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D097813D1F4FF002001ECDDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D097813E1F4FF002001ECDDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D09781401F4FF002001ECDDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WXRuler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.WXRuler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D09781411F4FF002001ECDDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WXRuler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.WXRuler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D09781431F4FF002001ECDDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WXRulerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.WXRulerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WXRuler.app/WXRuler";
+			};
+			name = Debug;
+		};
+		D09781441F4FF002001ECDDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WXRulerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.WXRulerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WXRuler.app/WXRuler";
+			};
+			name = Release;
+		};
+		D09781461F4FF002001ECDDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WXRulerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.WXRulerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WXRuler;
+			};
+			name = Debug;
+		};
+		D09781471F4FF002001ECDDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WXRulerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.WXRulerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WXRuler;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D097810D1F4FF002001ECDDE /* Build configuration list for PBXProject "WXRuler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D097813D1F4FF002001ECDDE /* Debug */,
+				D097813E1F4FF002001ECDDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D097813F1F4FF002001ECDDE /* Build configuration list for PBXNativeTarget "WXRuler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09781401F4FF002001ECDDE /* Debug */,
+				D09781411F4FF002001ECDDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D09781421F4FF002001ECDDE /* Build configuration list for PBXNativeTarget "WXRulerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09781431F4FF002001ECDDE /* Debug */,
+				D09781441F4FF002001ECDDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D09781451F4FF002001ECDDE /* Build configuration list for PBXNativeTarget "WXRulerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09781461F4FF002001ECDDE /* Debug */,
+				D09781471F4FF002001ECDDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D097810A1F4FF002001ECDDE /* Project object */;
+}
