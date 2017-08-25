@@ -17,6 +17,8 @@ ruler,尺子，刻度尺
     };
 
 
+效果图
 
+![image](https://github.com/frend7800/WXRuler/blob/master/8A2CC369-80F1-48F4-A267-E6436CF83908.png)
 
 
