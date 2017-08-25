@@ -181,7 +181,7 @@ typedef enum : NSUInteger {
     
     CGMutablePathRef pathlineX = CGPathCreateMutable();
     CAShapeLayer *lineXLayer = [CAShapeLayer layer];
-    lineXLayer.strokeColor = [UIColor lightGrayColor].CGColor;
+    lineXLayer.strokeColor = self.rulerColor.CGColor;
     lineXLayer.fillColor = [UIColor clearColor].CGColor;
     lineXLayer.lineWidth = 1.f;
     lineXLayer.lineCap = kCALineCapButt;

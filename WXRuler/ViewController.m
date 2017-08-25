@@ -31,7 +31,6 @@
     aview.rulerColor = [UIColor colorWithWhite:0.0 alpha:0.5];
     aview.backgroundColor = [UIColor yellowColor];
     [self.view addSubview:aview];
-    
     aview.currentValueChanged = ^(float value) {
         
         showLabel.text = [NSString stringWithFormat:@"%d",(int)value];
